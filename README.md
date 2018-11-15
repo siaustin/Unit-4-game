@@ -3,8 +3,6 @@ SEC RPG GAME:
 
 Here's how the app works:
 
-
-
 1. When the game starts, the player will choose a team by clicking on the team's picture. The player will fight as that team for the rest of the game.
 
 2. The player must then defeat all of the remaining teams. Opponents should be moved to a different area of the screen.
