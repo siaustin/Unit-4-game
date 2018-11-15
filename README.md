@@ -1,5 +1,5 @@
 # unit-4-game
-SEC RPG GAMe:
+SEC RPG GAME:
 
 Here's how the app works:
 
