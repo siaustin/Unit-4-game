@@ -1,0 +1,112 @@
+body {
+  font-family: 'Michroma', sans-serif;
+  background-image: url('../images/footballfield.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.section-title {
+  font-size: 200%;
+  color: white;
+}
+
+.main-section-title {
+  font-size: 300%;
+  text-align: center;
+  color: white;
+}
+
+.team {
+  display: inline-block;
+  cursor: pointer;
+  background-color: black;
+  border-color: lightskyblue;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.team-image {
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.team-name {
+  text-align: center;
+}
+
+.team-health {
+  text-align: center;
+}
+
+#available-to-attack-section .team {
+  display: inline-block;
+  cursor: pointer;
+  background-color: red;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.opponent {
+  display: inline-block;
+  cursor: pointer;
+  background-color: red;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#action .team {
+  color: white;
+  background-color: black;
+}
+
+.target-opponent {
+  color: white;
+  background-color: black;
+}
+
+#selected-team {
+  width: 190px;
+  height: 160px;
+}
+
+#attacker {
+  width: 190px;
+  height: 160px;
+}
+
+#defender {
+  width: 190px;
+  height: 160px;
+}
+
+#defender-name {
+  text-align: center;
+}
+
+#defender-health {
+  text-align: center;
+}
+
+#choose-opponent-button {
+  visibility: hidden;
+}
+
+#restart-button {
+  visibility: hidden;
+}
+
+#turn-counter {
+  font-size: 150%;
+}
